@@ -1,0 +1,45 @@
+.thumbnail .caption-full {
+  padding: 9px;
+}
+
+.container .row .col-md-9 {
+  padding-top: 100px;
+}
+
+.container .row .col-md-3 {
+  padding-top: 100px;
+}
+
+.well {
+  background-color: #f5f5f5;
+}
+
+#delete-form {
+  display: inline;
+}
+
+body {
+  padding-top: 100px;
+}
+
+img.camp {
+	background-size: cover;
+
+}
+
+.back_ground:hover .camp {
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
+
+.back_ground * {
+  transition: all 0.5s ease-in-out;
+}
+
+div.back_ground i {
+  transform: translate(-0%, -250%) scale(0);
+}
+
+div.back_ground:hover i.icon {
+  transform: translate(-0%, -250%) scale(2);
+}
